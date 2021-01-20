@@ -1,0 +1,35 @@
+.mainWrapWP {
+  display: flex;
+  margin: 5px;
+}
+
+.mainRowWP {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mainColumnWP {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.leftColumnWP {
+  background-color: #7991b8;
+  height: 680px;
+}
+
+.rightColumnWP {
+  background-color: #bd99b4;
+  height: 680px;
+}
+/* End of Outsider (Test) */
+#midLine {
+  border: 1px solid black;
+  margin: 5px;
+  height: 680px;
+
+}
